@@ -1,0 +1,89 @@
+
+    html{
+
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100vh
+        height: 100%;
+         margin: 0;
+        overflow: hidden;
+        font-size: 2rem;
+    }
+
+    .calculator{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    transform: translateY(15rem);
+    
+
+}
+    
+
+    .calculator-container{
+        background-color: tomato;
+        padding: 1.4rem;
+        border: 1px solid black;
+        border-radius: 15px;
+       max-width: 400px; 
+    }
+
+    .screen{
+        border: 1px solid black;
+        border-radius: 4px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 0 1.5rem 1rem 0;
+        min-height: 7rem;
+        margin-bottom: 1.4rem;
+    }
+    #currentOperationScreen{
+        font-size: 2.5rem;
+    }
+
+    #lastOperationScreen{
+        display: flex;
+        justify-self: flex-end;
+        align-self: center;
+        font-size: 1.3rem;
+        margin-right: .5rem;
+        margin-bottom: .5rem;
+        position: fixed;
+    }
+    .control{
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+    .firstButtons{
+        display: flex;
+        gap: 0.3rem;
+        margin-bottom: .3rem;
+    }
+    .btn{
+        min-height: 5rem;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .clear-btn{
+        width: 24vw;
+        
+    }
+
+    .delete-btn{
+        width: 24vw;
+       
+    }
+    .secondButtons{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: .3rem;
+    }
