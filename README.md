@@ -1,6 +1,6 @@
 # Project: Calculator
 
-An online calculator with basic arithmetic operations built usingHTML/CSS/JS. Live version of the game is __[here](https://cigmaian.github.io/Calculator/)__.
+An online calculator with basic arithmetic operations built using HTML/CSS/JS. Live version of the game is __[here](https://cigmaian.github.io/Calculator/)__.
 
 ## Features
 
